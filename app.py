@@ -1,3 +1,5 @@
+import sys
+st.write(f"🧪 Running on Python {sys.version}")
 import streamlit as st
 import yfinance as yf
 import requests
