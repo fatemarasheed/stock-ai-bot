@@ -1,9 +1,10 @@
 import sys
-st.write(f"🧪 Running on Python {sys.version}")
 import streamlit as st
 import yfinance as yf
 import requests
 from transformers import pipeline
+
+st.write(f"🧪 Running on Python {sys.version}")
 
 # --- Initialize sentiment model
 sentiment_model = pipeline("sentiment-analysis")
